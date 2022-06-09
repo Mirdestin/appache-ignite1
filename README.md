@@ -32,11 +32,15 @@ INSERT INTO City (id, name) VALUES (3, 'Ouidah');
 SELECT * FROM City;
 
 
+
 Q3 :
+
 SELECT * FROM City;
 
 
+
 Q4 :
+
 ./ignite.sh ../examples/config/example-ignite.xml
 
 ./sqlline.sh -u jdbc:ignite:thin://207.180.211.231/
@@ -44,7 +48,9 @@ Q4 :
 SELECT * FROM City;
 
 
+
 Q5 :
+
 CREATE TABLE Person (id LONG, name VARCHAR, city_id LONG, PRIMARY KEY (id, city_id)) WITH "backups=1, affinityKey=city_id";
 
 INSERT INTO Person (id, name, city_id) VALUES (1, 'John Koffi', 3);
@@ -56,6 +62,8 @@ INSERT INTO Person (id, name, city_id) VALUES (3, 'Mary AFFI', 1);
 INSERT INTO Person (id, name, city_id) VALUES (4, 'Richard TOGODO', 2);
 
 SELECT * FROM PERSON;
+
+
 
 Q6: 
 
