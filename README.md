@@ -2,7 +2,7 @@
 Exercice 1 
 Ce fichier présente les codes utilisés pour chaque question
 
-Q1 : 
+Qestion 1 : 
 
   site 1
   
@@ -17,7 +17,7 @@ C:\apache-ignite-slim-2.13.0-bin\bin>ssh root@149.102.155.141
  ./ignite.sh ../examples/config/example-ignite.xml
 
 
-Q2 : 
+Qestion 2 : 
 
  ./sqlline.sh -u jdbc:ignite:thin://149.102.155.141/
  
@@ -33,13 +33,13 @@ SELECT * FROM City;
 
 
 
-Q3 :
+Qestion 3 :
 
 SELECT * FROM City;
 
 
 
-Q4 :
+Qestion 4 :
 
 ./ignite.sh ../examples/config/example-ignite.xml
 
@@ -49,7 +49,7 @@ SELECT * FROM City;
 
 
 
-Q5 :
+Qestion 5 :
 
 CREATE TABLE Person (id LONG, name VARCHAR, city_id LONG, PRIMARY KEY (id, city_id)) WITH "backups=1, affinityKey=city_id";
 
@@ -65,7 +65,7 @@ SELECT * FROM PERSON;
 
 
 
-Q6: 
+Qestion 6: 
 
 SELECT * FROM PERSON;
 
